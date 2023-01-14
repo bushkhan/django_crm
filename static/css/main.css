@@ -9,14 +9,13 @@ body{
     background-color: #7abecc;
 }
 #orders-pending{
-    background-color: red;
+    background-color: #7cd1c0;
 }
 .footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #343A40;
     color: white;
     text-align: center;
  }
