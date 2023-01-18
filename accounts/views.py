@@ -27,7 +27,6 @@ def products(request):
 
 def customer(request,pk_test):
     customer = Customer.objects.get(id=pk_test)
-
     orders = customer.order_set.all()
     print
     order_total = orders.count()
