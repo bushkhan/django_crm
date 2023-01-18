@@ -18,7 +18,6 @@ def home(request):
     'delivered': delivered,
     'pending':pending,
     }
-
     return render(request, 'accounts/dashboard.html',context)
 
 def products(request):
